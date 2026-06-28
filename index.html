@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lucas Meira — Fotógrafo profissional especializado em retratos, eventos e natureza.">
+    <title>Lucas Meira | Fotógrafo</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="header-inner">
+            <a href="#hero" class="logo">Lucas<span>Meira</span></a>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contato" class="btn-nav">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section id="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-content">
+                <p class="hero-eyebrow">Fotógrafo Profissional</p>
+                <h1>Cada clique conta<br><span>uma história.</span></h1>
+                <p class="hero-sub">Especialista em retratos, eventos e natureza. Capturando momentos que duram para sempre.</p>
+                <div class="hero-acoes">
+                    <a href="#galeria" class="btn-primary">Ver Galeria</a>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="btn-secondary"><i class="fa-brands fa-whatsapp"></i> Solicitar Orçamento</a>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <span></span>
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="section">
+            <div class="container sobre-grid">
+                <div class="sobre-img-wrap">
+                    <div class="sobre-img-placeholder">
+                        <i class="fa-solid fa-camera"></i>
+                    </div>
+                    <div class="sobre-badge">
+                        <span class="badge-num">8+</span>
+                        <span class="badge-txt">Anos de experiência</span>
+                    </div>
+                </div>
+                <div class="sobre-texto">
+                    <p class="section-eyebrow">Sobre mim</p>
+                    <h2>Apaixonado por luz, sombra e emoção.</h2>
+                    <p>Olá! Sou Lucas Meira, fotógrafo profissional com mais de 8 anos de experiência capturando momentos únicos. Trabalho com retratos, casamentos, eventos corporativos e fotografia de natureza.</p>
+                    <p>Acredito que uma boa foto vai além da técnica — ela precisa transmitir emoção, contar uma história e fazer você reviver aquele instante toda vez que olhar para ela.</p>
+                    <div class="sobre-stats">
+                        <div class="stat">
+                            <span class="stat-num">500+</span>
+                            <span class="stat-txt">Ensaios realizados</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">200+</span>
+                            <span class="stat-txt">Clientes satisfeitos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">15+</span>
+                            <span class="stat-txt">Prêmios recebidos</span>
+                        </div>
+                    </div>
+                    <div class="sobre-redes">
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ESPECIALIDADES -->
+        <section id="especialidades" class="section section-dark">
+            <div class="container">
+                <p class="section-eyebrow center">O que eu faço</p>
+                <h2 class="section-title center">Especialidades</h2>
+                <div class="cards-esp">
+                    <article class="card-esp">
+                        <div class="card-icon"><i class="fa-solid fa-user"></i></div>
+                        <h3>Retratos</h3>
+                        <p>Ensaios individuais, familiares e profissionais com luz natural ou estúdio.</p>
+                    </article>
+                    <article class="card-esp">
+                        <div class="card-icon"><i class="fa-solid fa-ring"></i></div>
+                        <h3>Casamentos</h3>
+                        <p>Cobertura completa do seu dia especial, do making of à festa.</p>
+                    </article>
+                    <article class="card-esp">
+                        <div class="card-icon"><i class="fa-solid fa-building"></i></div>
+                        <h3>Eventos Corporativos</h3>
+                        <p>Conferências, lançamentos e reuniões com qualidade profissional.</p>
+                    </article>
+                    <article class="card-esp">
+                        <div class="card-icon"><i class="fa-solid fa-tree"></i></div>
+                        <h3>Natureza</h3>
+                        <p>Paisagens e vida selvagem com olhar artístico e técnica apurada.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALERIA -->
+        <section id="galeria" class="section">
+            <div class="container">
+                <p class="section-eyebrow center">Meu trabalho</p>
+                <h2 class="section-title center">Galeria</h2>
+                <div class="filtros">
+                    <button class="filtro ativo" data-filtro="todos">Todos</button>
+                    <button class="filtro" data-filtro="retratos">Retratos</button>
+                    <button class="filtro" data-filtro="casamentos">Casamentos</button>
+                    <button class="filtro" data-filtro="natureza">Natureza</button>
+                </div>
+                <div class="galeria-grid">
+                    <article class="foto-card" data-cat="retratos">
+                        <div class="foto-placeholder"><i class="fa-solid fa-camera-retro"></i><span>Retrato Urbano</span></div>
+                        <div class="foto-overlay"><p>Retrato Urbano</p><span>Retratos</span></div>
+                    </article>
+                    <article class="foto-card" data-cat="casamentos">
+                        <div class="foto-placeholder"><i class="fa-solid fa-heart"></i><span>Casamento na Praia</span></div>
+                        <div class="foto-overlay"><p>Casamento na Praia</p><span>Casamentos</span></div>
+                    </article>
+                    <article class="foto-card" data-cat="natureza">
+                        <div class="foto-placeholder"><i class="fa-solid fa-mountain-sun"></i><span>Pôr do Sol</span></div>
+                        <div class="foto-overlay"><p>Pôr do Sol</p><span>Natureza</span></div>
+                    </article>
+                    <article class="foto-card" data-cat="retratos">
+                        <div class="foto-placeholder"><i class="fa-solid fa-person"></i><span>Ensaio Feminino</span></div>
+                        <div class="foto-overlay"><p>Ensaio Feminino</p><span>Retratos</span></div>
+                    </article>
+                    <article class="foto-card" data-cat="casamentos">
+                        <div class="foto-placeholder"><i class="fa-solid fa-champagne-glasses"></i><span>Recepção</span></div>
+                        <div class="foto-overlay"><p>Recepção</p><span>Casamentos</span></div>
+                    </article>
+                    <article class="foto-card" data-cat="natureza">
+                        <div class="foto-placeholder"><i class="fa-solid fa-water"></i><span>Cachoeira</span></div>
+                        <div class="foto-overlay"><p>Cachoeira</p><span>Natureza</span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- DEPOIMENTOS -->
+        <section id="depoimentos" class="section section-dark">
+            <div class="container">
+                <p class="section-eyebrow center">O que dizem</p>
+                <h2 class="section-title center">Depoimentos</h2>
+                <div class="deps-grid">
+                    <article class="dep-card">
+                        <div class="estrelas"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p>"As fotos do nosso casamento ficaram simplesmente perfeitas. Lucas captou cada emoção com maestria. Recomendo demais!"</p>
+                        <div class="dep-autor">
+                            <div class="dep-avatar"><i class="fa-solid fa-user"></i></div>
+                            <div>
+                                <strong>Ana e Pedro</strong>
+                                <span>Casamento — Fevereiro 2025</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dep-card">
+                        <div class="estrelas"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p>"Fiz um ensaio de retratos e fiquei encantada com o resultado. Profissional, atencioso e muito criativo!"</p>
+                        <div class="dep-autor">
+                            <div class="dep-avatar"><i class="fa-solid fa-user"></i></div>
+                            <div>
+                                <strong>Mariana Costa</strong>
+                                <span>Retrato — Janeiro 2025</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="dep-card">
+                        <div class="estrelas"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p>"Contratamos para o nosso evento corporativo e superou todas as expectativas. Entregou antes do prazo e com qualidade incrível."</p>
+                        <div class="dep-autor">
+                            <div class="dep-avatar"><i class="fa-solid fa-user"></i></div>
+                            <div>
+                                <strong>Carlos Mendes</strong>
+                                <span>Evento Corporativo — Março 2025</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="section">
+            <div class="container contato-grid">
+                <div class="contato-info">
+                    <p class="section-eyebrow">Vamos conversar</p>
+                    <h2>Pronto para capturar<br>seu momento?</h2>
+                    <p>Entre em contato e receba um orçamento personalizado sem compromisso.</p>
+                    <div class="contato-itens">
+                        <a href="https://wa.me/5511999999999" target="_blank" class="contato-item">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span>(11) 99999-9999</span>
+                        </a>
+                        <a href="mailto:lucas@fotografia.com" class="contato-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>lucas@fotografia.com</span>
+                        </a>
+                        <div class="contato-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>São Paulo, SP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contato-cta">
+                    <div class="cta-box">
+                        <i class="fa-brands fa-whatsapp cta-icon"></i>
+                        <h3>Fale comigo agora</h3>
+                        <p>Respondo em minutos pelo WhatsApp. Orçamento gratuito e sem compromisso!</p>
+                        <a href="https://wa.me/5511999999999" target="_blank" class="btn-wpp">
+                            <i class="fa-brands fa-whatsapp"></i> Chamar no WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-inner">
+            <div>
+                <a href="#hero" class="logo">Lucas<span>Meira</span></a>
+                <p>Fotógrafo profissional — Retratos, Casamentos, Eventos e Natureza.</p>
+            </div>
+            <div class="footer-redes">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://wa.me/5511999999999" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <p class="footer-copy">© 2025 Lucas Meira Fotografia. Site desenvolvido por <strong>RCTech</strong>.</p>
+    </footer>
+
+    <!-- BOTÃO FLUTUANTE WHATSAPP -->
+    <a href="https://wa.me/5511999999999" target="_blank" class="wpp-float" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
